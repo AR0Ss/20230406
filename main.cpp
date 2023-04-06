@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Player.h"
 
 using namespace std;
 
@@ -6,8 +7,10 @@ using namespace std;
 
 int main()
 {
+	FPlayer* Player = new FPlayer();
 
+	cout << Player << endl;
 
-
-	return 0;
+	delete Player;
+    return 0;
 }

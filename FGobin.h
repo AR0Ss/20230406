@@ -11,6 +11,5 @@ public:
 	void Attack();
 
 
-private:
 };
 

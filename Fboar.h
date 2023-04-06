@@ -10,7 +10,5 @@ public:
 	void Move();
 	void Attack();
 
-
-private:
 };
 
